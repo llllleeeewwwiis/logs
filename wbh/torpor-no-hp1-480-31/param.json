@@ -8,6 +8,8 @@
         "bertqa" ],
     "func_num": 480,
     "bert_ratio": 0.125,
+    "bert_num": 60,
+    "densenet_num": 420,
     "server_num": 4,
     "policy": "sa",
     "sender_from_trace_time": 31,
