@@ -1,0 +1,19 @@
+{
+    "torpor": "hp1",
+    "NVLink": "no",
+    "model_name": "custom",
+    "cv_models": "densenet201",
+    "custom_pattern": [
+        "densenet201",
+        "bertqa" ],
+    "func_num": 400,
+    "bert_ratio": 0.125,
+    "bert_num": 50,
+    "densenet_num": 350,
+    "server_num": 4,
+    "policy": "sa",
+    "sender_from_trace_time": 31,
+    "sender_from_trace_generate_fun_num": "119448"
+}
+
+
