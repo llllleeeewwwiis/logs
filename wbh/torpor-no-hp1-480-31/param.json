@@ -7,10 +7,10 @@
         "densenet201",
         "bertqa" ],
     "func_num": 480,
-    "bert_ratio": 0.125, # bert: 60 Densenet201: 420
+    "bert_ratio": 0.125,
     "server_num": 4,
     "policy": "sa",
-    "sender_from_trace_time": 31
+    "sender_from_trace_time": 31,
     "sender_from_trace_generate_fun_num": "146239"
 }
 
