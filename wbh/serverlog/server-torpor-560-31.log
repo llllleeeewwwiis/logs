@@ -1,0 +1,31 @@
+Set context max socket to 60000 res 0
+Controller -- enable peer access cur 0 peer 1 res 0
+Controller -- enable peer access cur 0 peer 2 res 0
+Controller -- enable peer access cur 0 peer 3 res 0
+Controller -- enable peer access cur 1 peer 0 res 0
+Controller -- enable peer access cur 1 peer 2 res 0
+Controller -- enable peer access cur 1 peer 3 res 0
+Controller -- enable peer access cur 2 peer 0 res 0
+Controller -- enable peer access cur 2 peer 1 res 0
+Controller -- enable peer access cur 2 peer 3 res 0
+Controller -- enable peer access cur 3 peer 0 res 0
+Controller -- enable peer access cur 3 peer 1 res 0
+Controller -- enable peer access cur 3 peer 2 res 0
+Set GPU memory limit to 25 GB
+Server start
+Server 0 -- start set device
+Server 1 -- start set device
+Server 2 -- start set device
+Server 3 -- start set device
+Server 0 -- Allocated 240 blocks of size 134217728
+Server 0 -- Set transmission buffer size to 2097152
+Server 0 -- Set I/O thread num to 4
+Server 1 -- Allocated 240 blocks of size 134217728
+Server 1 -- Set transmission buffer size to 2097152
+Server 1 -- Set I/O thread num to 4
+Server 2 -- Allocated 240 blocks of size 134217728
+Server 2 -- Set transmission buffer size to 2097152
+Server 2 -- Set I/O thread num to 4
+Server 3 -- Allocated 240 blocks of size 134217728
+Server 3 -- Set transmission buffer size to 2097152
+Server 3 -- Set I/O thread num to 4
